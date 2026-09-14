@@ -24,4 +24,7 @@ jobs:
           plugin_licenses: yes
           plugin_followup: yes
           plugin_people: yes
-          plugin_achievements: yes
+          # ❌ 組織アカウントでエラーになるプラグインを明示的に無効化
+          plugin_habits: no
+          plugin_isocalendar: no
+          plugin_achievements: no
