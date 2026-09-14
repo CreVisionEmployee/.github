@@ -21,9 +21,10 @@ jobs:
           config_locale: ja
           plugin_languages: yes
           plugin_topics: yes
-          plugin_licenses: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 0
           plugin_followup: yes
           plugin_people: yes
-          # 明示的に無効化を追加
-          plugin_habits: no
-          plugin_achievements: no
+          plugin_people_types: contributors
+          plugin_achievements: yes
+          plugin_achievements_only: sponsor, maintainer, octonaut
